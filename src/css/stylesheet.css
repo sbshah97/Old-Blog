@@ -1,0 +1,61 @@
+body {
+	background-color: #e8f5e9;
+}
+
+.panel {
+	z-index:-1;
+	width: 100%;
+	margin-bottom: -120px;
+}
+
+.card {
+	margin-right: 40px;
+	margin-left: 40px;
+	max-width: 800px;
+}
+
+nav .nav-wrapper {
+}
+
+footer.page-footer {
+	margin: 0%;
+}
+
+.contact {
+	padding-left: 10%;
+}
+
+.icon-image {
+	text-align: right;
+}
+
+.icon-image img{
+	display: table-cell;
+	vertical-align: middle;
+	width: 50px;
+	height: 50px;
+	padding: 20%;
+}
+
+.icon-image a {
+	display: inline-block;
+
+}
+
+.dropdown-content {
+	position: relative;
+	margin-top: 5%;
+}
+
+.carousel img {
+	min-height: 100%;
+}
+
+.slider {
+	height: auto !important;
+}
+
+.slider .slides, .slider li, .photos {
+	max-height: 57vw !important;
+}
+
