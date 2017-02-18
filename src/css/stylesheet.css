@@ -1,5 +1,6 @@
 body {
 	background-color: #e8f5e9;
+	text-align: center;
 }
 
 .panel {
@@ -39,7 +40,6 @@ footer.page-footer {
 
 .icon-image a {
 	display: inline-block;
-
 }
 
 .dropdown-content {
