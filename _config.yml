@@ -16,7 +16,7 @@
 title: Bhai Tech Blog
 email: sbs.191197@gmail.com
 description: This is my technical blog where I'll be sharing insights to some of the projects that I have undertaken.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/Blog" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: salman-bhai
 
