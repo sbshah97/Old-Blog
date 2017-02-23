@@ -28,96 +28,114 @@
 
 	<body>
 
-		<header class='indigo darken-1'>
-	  	<ul id="Blogs" class="dropdown-content">
-				<li><a href="https://bhaigyaan.wordpress.com">BhaiGyaan</a></li>
-				<li class="divider"></li>
-				<li><a href="https://salman-bhai.github.io/Blog/">BhaiTech</a></li>
-			</ul>
-			<div class="navbar-fixed">
-		  	<nav>
-			    <div class="nav-wrapper indigo darken-1">
-			    	<ul id="nav-mobile" class="right">
-			        <li><a href="https://salman-bhai.github.io/My-Website/">Home</a></li>
-			        <li><a href="https://salman-bhai.github.io/My-Website/projects.html">Projects</a></li>
-			        <li><a href="https://salman-bhai.github.io/My-Website/experience.html">Experience</a></li>
-			        <li><a href="https://salman-bhai.github.io/My-Website/academics.html">Academics</a></li>
-			        <li>
-			        	<a class="dropdown-button" href="#!" data-activates="Blogs">
-			        		Blogs
-			        		<i class="material-icons right">
-			        			arrow_drop_down
-			        		</i>
-			        	</a>
-			        </li>
-			      </ul>
-			    </div>
-		  	</nav>
+		<header class='blue-grey darken-1'>
+		  	<ul id="Blogs" class="dropdown-content">
+					<li><a href="https://bhaigyaan.wordpress.com">BhaiGyaan</a></li>
+					<li class="divider"></li>
+					<li><a href="https://salman-bhai.github.io/Blog/">BhaiTech</a></li>
+				</ul>
+				<div class="navbar-fixed">
+			  	<nav>
+				    <div class="nav-wrapper blue-grey darken-1">
+				    	<ul id="nav-mobile" class="right">
+					        <li><a href="https://salman-bhai.github.io/My-Website/">Home</a></li>
+					        <li><a href="https://salman-bhai.github.io/My-Website/projects.html">Projects</a></li>
+					        <li><a href="https://salman-bhai.github.io/My-Website/academics.html">Academics</a></li>
+					        <li><a href="https://salman-bhai.github.io/My-Website/resume.html">Resume</a></li>
+					        <li>
+					        	<a class="dropdown-button" href="#!" data-activates="Blogs">
+					        		Blogs
+					        		<i class="material-icons right">
+					        			arrow_drop_down
+					        		</i>
+					        	</a>
+					        </li>
+				      	</ul>
+				    </div>
+			  	</nav>
 			</div>
 			<div class="panel" style="height: 540px;">
-			</div>
-			
-  	</header>
-		<!--Content for the blog-->
-		<div class="container" >
-			<div class="card" >
-				<div class="card-content" style="text-align:left">
-					{{ content }}
+				
+				<div class="bg-img">
+					<img src="{{ site.baseurl }}/images/salman-bhai.png">
 				</div>
-			</div>
-		</div>
-
-		<footer class="page-footer indigo darken-1">
-	  	
-	  	<div class="row">
-				<div class="col s6 push-s2">
-					<h5 class="white-text">Links</h5>
-	        <div class="row">
-	        	<div class="col s2 pull-s2">
-	            <ul>
-					<li><a class="grey-text text-lighten-3" href="https://salman-bhai.github.io/My-Website/index.html">Home</a></li>
-					<li><a class="grey-text text-lighten-3" href="https://salman-bhai.github.io/My-Website/projects.html">Projects</a></li>
-					<li><a class="grey-text text-lighten-3" href="https://salman-bhai.github.io/My-Website/experience.html">Experience</a></li>
-	            </ul>
-	          	</div>
-	          	<div class="col s2 pull-s1">
-	          		<ul>
-	          			<li><a class="grey-text text-lighten-3" href="https://salman-bhai.github.io/My-Website/academics.html">Academics</a></li>
-						<li><a class="grey-text text-lighten-3" href="https://salman-bhai.github.io/My-Website/resume.html">Resume</a></li>
-						<li><a class="grey-text text-lighten-3" href="https://salman-bhai.github.io/My-Website/contact.html">Contact Me</a></li>
-	        		</ul>
-	        	</div>
-	        </div>
-	    </div>
-
-	    <div class="col s6">
-	    	<div class="contact">
-    				<h5 class="white-text">Contact</h5>
-    			</div>
-    			<div class="row">
-    				<div class="col s6">	
-						<p class="grey-text text-lighten-3">Salman Shah, Room 53 - Block 3, NITK Hostels, Srinivas Nagar, Surathkal, Mangalore, Karnataka - 575025.</p>
+				
+				<div class="header-icons">
+					<div class="col s4 right">
+    				<div class="icon-image" style="blue-grey darken-4">
+    					<a href="https://github.com/salman-bhai"><img src="{{ site.baseurl }}/images/logo_github_white.png"></a>
+    					<a href="https://www.linkedin.com/in/sbshah97"><img src="{{ site.baseurl }}/images/logo_linkedin_white.png"></a>
+    					<a href="https://www.facebook.com/salman.shah.92775"><img src="{{ site.baseurl }}/images/logo_fb_white.png"></a>
+    					<a href="https://www.instagram.com/salmanbhai_97/?hl=en"><img src="{{ site.baseurl }}/images/logo_instagram_white.png"></a>	
     				</div>
     			</div>
-    		</div>
-    	</div>
+				</div>
+
+			</div>		
+	  	</header>
+			
+
+			<!--Content for the blog-->
+			<div class="container" >
+				<div class="card" >
+					<div class="card-content" style="text-align:left">
+						{{ content }}
+					</div>
+				</div>
+			</div>
+
+		<footer class="page-footer blue-grey darken-1">
+	  	
+	  	<div class="row">
+
+				<div class="col s4">
+					
+					<h5 class="white-text">Links</h5>
+	        <div class="row">
+	        	<div class="col s6">
+	            <ul>
+								<li><a class="grey-text text-lighten-3" href="https://salman-bhai.github.io/My-Website/" style="font-size: 1.0em;letter-spacing:2px;">Home</a></li>
+								<li><a class="grey-text text-lighten-3" href="https://salman-bhai.github.io/My-Website/projects.html" style="font-size: 1.0em;letter-spacing:2px;">Projects</a></li>
+	            </ul>
+	          	</div>
+	          	<div class="col s6">
+	          		<ul>
+	          			<li><a class="grey-text text-lighten-3" href="https://salman-bhai.github.io/My-Website/academics.html" style="font-size: 1.0em;letter-spacing:2px;">Academics</a></li>
+									<li><a class="grey-text text-lighten-3" href="https://salman-bhai.github.io/My-Website/resume.html" style="font-size: 1.0em;letter-spacing:2px;">Resume</a></li>
+	        			</ul>
+	        		</div>
+	        	</div>
+	    		</div>
+
+			    <div class="col s4 right">
+			    	<div class="contact">
+		    				<h5 class="white-text">Contact</h5>
+		    			</div>
+		    			<div class="row">
+		    				<div class="col">	
+								<p class="grey-text text-lighten-3">Salman Shah, Room 53 - Block 3, NITK Hostels, Srinivas Nagar, Surathkal, Mangalore, Karnataka - 575025.</p>
+		    				</div>
+		    			</div>
+		    		</div>
+		    	</div>
 
       <div class="footer-copyright">
     		<div class="row">
-    			<div class="col s8">
+    			<div class="col s8 pull-s3">
     				© 2016 Salman Shah
     			</div>
     			<!-- Add images here-->
     			<div class="col s4 right">
     				<div class="icon-image">
-    					<a href="https://github.com/salman-bhai"><img src="{{site.baseurl}}/images/logo_github_white.png"></a>
-    					<a href="https://www.linkedin.com/in/sbshah97"><img src="{{site.baseurl}}/images/logo_linkedin_white.png"></a>
-    					<a href="https://www.facebook.com/salman.shah.92775"><img src="{{site.baseurl}}/images/logo_fb_white.png"></a>
-    					<a href="https://www.instagram.com/salmanbhai_97/?hl=en"><img src="{{site.baseurl}}/images/logo_instagram_white.png"></a>					
+    					<a href="https://github.com/salman-bhai"><img src="{{ site.baseurl }}/images/logo_github_white.png"></a>
+    					<a href="https://www.linkedin.com/in/sbshah97"><img src="{{ site.baseurl }}/images/logo_linkedin_white.png"></a>
+    					<a href="https://www.facebook.com/salman.shah.92775"><img src="{{ site.baseurl }}/images/logo_fb_white.png"></a>
+    					<a href="https://www.instagram.com/salmanbhai_97/?hl=en"><img src="{{ site.baseurl }}/images/logo_instagram_white.png"></a>			
     				</div>
     			</div>
     		</div>
     	</div>
+
   	</footer>
 	</body>
 </html>

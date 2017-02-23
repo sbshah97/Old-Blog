@@ -11,22 +11,13 @@ tags: ["Git","GitHub"]
 ##### What are branches and how to use them?
 
 * Branches are basically used when multiple people want on different parts in the same projects.<br><br>
-* The default branch in a GitHub repository is called __master__. To **create** a new branch you need to execute the following command:
+* The default branch in a GitHub repository is called __master__. To create a new branch you need to execute the following command:
+
 {% highlight git %}
 git checkout -b <branch_name>
 Switched to a new branch 'salman'
 {% endhighlight %}
-<br>
-* You can now start working on the same set of files without worrying about any Merge Conflicts.<br><br>
 
-* After you're done working on them use the following commands to **push your new branch** on to GitHub.
-{% highlight git %}
-git add --all
-git commit -m "<your_message>"
-git push origin <branch_name>
-{% endhighlight %}
-<br>
-* As a result of this a new branch will be created for you on GitHub and you can put all your changes over there.<br><br>
 * In case you are looking to switch back to your __master__ branch on your local repository, type in the following commands to get back again:
 {% highlight git %}
 git checkout master
@@ -42,7 +33,9 @@ git branch -d <branch_name>
 {% highlight git %}
 git branch -D <branch_name>
 {% endhighlight %}
-<br>
+
+![git branch commands]({{ site.baseurl }}/images/post20.png)
+
 ##### How to sync your branch with the Master branch
 * If you are looking to sync your branch as in update the online changes that someone else has made to the __master__ branch to your branch, put in the following commands:
 {% highlight git %}
@@ -53,5 +46,17 @@ git pull origin master
 
 {% highlight git %}
 git pull origin <branch_name>
+{% endhighlight %}
+
+
+##### How to push branches on GitHub
+
+* You can now start working on the same set of files without worrying about any Merge Conflicts.
+* After you're done working on them use the following commands to push your new branch on to GitHub.
+
+{% highlight git %}
+git add --all
+git commit -m "<your_message>"
+git push origin <branch_name>
 {% endhighlight %}
 <br>
