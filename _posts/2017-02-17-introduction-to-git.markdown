@@ -6,13 +6,14 @@ tags: ["Git","GitHub"]
 ---
 
 ##### Definition
-* **Git** (/ɡɪt/) is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people.<br><br>
 
-* It is primarily used for software development, but it can be used to keep track of changes in any files.<br><br>
+* Git is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people. To check in the version of Git in your system type in the following command!<br>
+{% highlight git %}
+git --version
+{% endhighlight %}
+* It is primarily used for software development, but it can be used to keep track of changes in any files. GitHub is a website which allows users to use Git and put their files online and keep a track of the changes in them as well as helping in coordinating work between different people.<br>
 
-* **GitHub** is a website which allows users to use Git and put their files online and keep a track of the changes in them as well as helping in coordinating work between different people.<br><br>
-
-* GitHub is primarily used by large as well as small IT Companies as well as upcoming startups.<br><br>
+* GitHub is primarily used by large as well as small IT Companies as well as upcoming startups.<br>
 
 ##### How To Get Started?
 
