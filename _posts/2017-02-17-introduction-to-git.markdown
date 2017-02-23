@@ -5,7 +5,7 @@ description: "A basic overview of Git and its uses"
 tags: ["Git","GitHub"]
 ---
 
-#### Definition
+##### Definition
 * **Git** (/ɡɪt/) is a version control system (VCS) for tracking changes in computer files and coordinating work on those files among multiple people.<br><br>
 
 * It is primarily used for software development, but it can be used to keep track of changes in any files.<br><br>
@@ -14,25 +14,25 @@ tags: ["Git","GitHub"]
 
 * GitHub is primarily used by large as well as small IT Companies as well as upcoming startups.<br><br>
 
-#### How To Get Started?
+##### How To Get Started?
 
 * All you have to do if you are a Linux user to install Git is to install it via the `apt-get` command.<br><br>
-```bash
+{% highlight git %}
 sudo apt-get update
 sudo apt-get install git
-```
+{% endhighlight %}
 
 * And that is all that you need to get Git up and running in your system.<br><br>
 * After that you have to configure Git according to your settings. This is done via the `config --global` command.<br><br>
 
-```git
+{% highlight git %}
 git config --global user.email "you@example.com"
 git config --global user.name "Your Name"
-```
+{% endhighlight %}
 
 * After that you are all set to go!<br><br>
 
-#### Create a GitHub Account
+##### Create a GitHub Account
 
 * Go to the address: [GitHub](https://github.com/) and then fill in the form which is given.<br><br>
 
@@ -40,7 +40,7 @@ git config --global user.name "Your Name"
 
 * That is all you need to create your GitHub account.<br><br>
 
-#### Make your first commit
+##### Make your first commit
 * Go to the [GitHub website](https://github.com/) and create a New Repository by clicking on the green 'New Repository' button to the right of the page.<br><br> 
 
 * After that do the following:<br><br>
@@ -56,10 +56,10 @@ git config --global user.name "Your Name"
 
 * Add the following commands to your terminal.
 
-```git
+{% highlight git %}
 git clone https://github.com/<your_name>/hello-world.git
 cd hello-world
-```
+{% endhighlight %}
 
 * You basically have to paste the HTTPS or SSH link that you've copied from the repository page and paste it after the `git clone` command.<br><br>
 
@@ -69,28 +69,28 @@ cd hello-world
 
 * First save the changes that you made to the local repository.
 
-```git
+{% highlight git %}
 git add --all
-```
+{% endhighlight %}
 
 * Then create a new commit and add a message associated with it with the following command:
 
-```git 
+{% highlight git %} 
 git commit -m "Initial Commit"
-```
+{% endhighlight %}
 
 * Lastly `push` your commits to your online repository with the following command:
 
-```
+{% highlight git %}
 git push origin master
-```
+{% endhighlight %}
 
 * After this you will be asked for your login credentials which you have to enter and then your commit will be pushed!<br><br>
 
 * Congrats you have just finished adding your first commit!<br><br>
 
-#### Things To Remember
+##### Things To Remember
 
 * This is just a basic tutorial to add files on GitHub.<br><br>
 
-* Check out the next article for more advanced features of Git and GitHub.<br><br><br><br>
+* Check out the next article for more advanced features of Git and GitHub.<br>

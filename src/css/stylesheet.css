@@ -1,9 +1,14 @@
 body {
 	background-color: #e8f5e9;
 	font-size: 1.2em;
+	font-family: cursive;
 }
 
-body h1, body h2 {
+body h1, body h2, body h3, body h4, body h5 {
+	text-align: center;
+}
+
+.post-list {
 	text-align: center;
 }
 
@@ -19,9 +24,6 @@ body h1, body h2 {
 	max-width: 800px;
 }
 
-
-nav .nav-wrapper {
-}
 
 footer.page-footer {
 	margin: 0%;
@@ -51,16 +53,3 @@ footer.page-footer {
 	position: relative;
 	margin-top: 5%;
 }
-
-.carousel img {
-	min-height: 100%;
-}
-
-.slider {
-	height: auto !important;
-}
-
-.slider .slides, .slider li, .photos {
-	max-height: 57vw !important;
-}
-

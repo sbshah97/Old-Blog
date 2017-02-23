@@ -8,7 +8,7 @@ tags: ["Git","GitHub"]
 * A lot of times it is difficult to manage using Version Control when there are more than one contributors in a particular repository! At such times it is important to a particular feature of Git called **branch** <br><br>
 * The error caused due to such is known as **Merge Conflicts** and often solving Merge conflicts is tedious and often results in information being lost as a result.
 
-#### What are branches and how to use them?
+##### What are branches and how to use them?
 
 * Branches are basically used when multiple people want on different parts in the same projects.<br><br>
 * The default branch in a GitHub repository is called __master__. To **create** a new branch you need to execute the following command:
@@ -43,7 +43,7 @@ git branch -d <branch_name>
 git branch -D <branch_name>
 {% endhighlight %}
 <br>
-#### How to sync your branch with the Master branch
+##### How to sync your branch with the Master branch
 * If you are looking to sync your branch as in update the online changes that someone else has made to the __master__ branch to your branch, put in the following commands:
 {% highlight git %}
 git pull origin master
