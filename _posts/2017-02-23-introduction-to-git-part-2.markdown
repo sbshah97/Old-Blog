@@ -5,13 +5,12 @@ description: "Introduction to Branches in Git"
 tags: ["Git","GitHub"]
 ---
 
-* A lot of times it is difficult to manage using Version Control when there are more than one contributors in a particular repository! At such times it is important to a particular feature of Git called **branch** <br><br>
-* The error caused due to such is known as **Merge Conflicts** and often solving Merge conflicts is tedious and often results in information being lost as a result.
+* A lot of times it is difficult to coordinate changes in a project while using Version Control especially when there are more than one contributors in a particular repository! At such times it is important to use a particular feature of Git called **branch** <br><br>
 
 ##### What are branches and how to use them?
 
-* Branches are basically used when multiple people want on different parts in the same projects.<br><br>
-* The default branch in a GitHub repository is called __master__. To create a new branch you need to execute the following command:
+* Branches are a feature of Git used when multiple collaborators are working on the same project, but want to work on different parts of the project.<br><br>
+* This is where the concept of branches in Git is particularly useful. A branch is like a copy of the original code which runs parlallely with other branches in the code repository! The default branch in a GitHub repository is called __master__. To create a new branch you need to execute the following command:
 
 {% highlight git %}
 git checkout -b <branch_name>
@@ -24,7 +23,7 @@ git checkout master
 git checkout <branch_name>
 {% endhighlight %}
 <br>
-* If you are looking to delete a branch first **make sure you aren't currently on that branch**! Use `git checkout` to move to another branch and then use the following commands to delete the branch.
+* If you are looking to delete a branch first make sure you aren't currently on that branch! Use `git checkout` to move to another branch and then use the following commands to delete the branch.
 {% highlight git %}
 git branch -d <branch_name>
 {% endhighlight %}
@@ -37,7 +36,7 @@ git branch -D <branch_name>
 ![git branch commands]({{ site.baseurl }}/images/post20.png)
 
 ##### How to sync your branch with the Master branch
-* If you are looking to sync your branch as in update the online changes that someone else has made to the __master__ branch to your branch, put in the following commands:
+* If you are looking to sync your branch with your master, as in update the online changes that someone else has made to the __master__ branch to your branch, type in the following commands:
 {% highlight git %}
 git pull origin master
 {% endhighlight %}
@@ -48,10 +47,9 @@ git pull origin master
 git pull origin <branch_name>
 {% endhighlight %}
 
-
 ##### How to push branches on GitHub
 
-* You can now start working on the same set of files without worrying about any Merge Conflicts.
+* Once you have your local changes made and committed, it is essential for you to push them on GitHub so that ohers can review them as well! To do this you can simply push your branch on to GitHub just like you would push the master branch to GitHub!<br>
 * After you're done working on them use the following commands to push your new branch on to GitHub.
 
 {% highlight git %}
@@ -60,3 +58,5 @@ git commit -m "<your_message>"
 git push origin <branch_name>
 {% endhighlight %}
 <br>
+
+* Check out the next tutorial to see how to resolve Merge Conflicts as and when you encounter them using Git.

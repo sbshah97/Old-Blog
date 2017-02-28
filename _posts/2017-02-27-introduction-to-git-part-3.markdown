@@ -1,14 +1,14 @@
 ---
 layout: post
 title: "Introduction to Git and GitHub - Part III"
-description: "Resolving Merge Conflicts"
+description: "How to resolve Merge Conflicts in Git"
 tags: ["Git","GitHub"]
 ---
 
-* This post deals with the dreaded word of "Merge Conflicts" and how it isn't as bad as we think it is!<br>
+* This post deals with the dreaded word of "Resolving Merge Conflicts" and how it isn't as bad as we think it is!<br>
 * This often happens when multiple people work on the same branch or when multiple branches are in play and they don't get pushed sequentially!<br>
-* The only thing you should remember in Git is you cannot break things. You can always go to your previous state. This is what is meant by Version Control. 
-* Also Git Merge Conflicts only occur on local systems not on the Git Server, so in case you are facing a Merge Conflict it will not stop your project, just your progress will be halted.
+* The only thing you should remember in Git is you cannot break things. You can always go to your previous state and re-start your work again! It is saved as long as you push it properly! 
+* Also, Git Merge Conflicts only occur on local systems not on the Git Server, so in case you are facing a Merge Conflict it will not stop your project, just your progress will be halted.
 
 ##### What are Merge Conflicts and how do they occur?
 * Git being a Version Control System, the act of 'merging' is simply adding your changes that you've made to your copy of the project repository to the main project repository and almost most of the time this process goes on smoothly.<br> 
@@ -49,6 +49,8 @@ This repository is the work of Salman and Hrily</p>
 git add src/team.html
 {% endhighlight %}
 
-* Thus very successfully, we have solved the problem of resolving Merge Conflicts in Git! Keep watching this space for the next tutorial to come in!
+* Thus very successfully, we have solved the problem of resolving Merge Conflicts in Git!<br>
+* This is all that you need to start using Git and GitHub in your projects!  
+
 
 
