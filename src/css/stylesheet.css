@@ -44,13 +44,15 @@ p img {
 
 .bg-img {
 	position:absolute;
-	top:30%;
+	top:18%;
 	left:50%;
 	transform: translateX(-50%);
 }
 
-.bg-img img {
+.bg-img h1, .bg-img h3 {
 	width: 100%;
+	font-family:roboto;
+	color: #ccffcc;
 }
 
 .header-icons {
