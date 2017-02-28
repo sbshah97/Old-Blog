@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduction to Git and GitHub - Part II"
-description: "Using Git for group projects"
+description: "Introduction to Branches in Git"
 tags: ["Git","GitHub"]
 ---
 
