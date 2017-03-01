@@ -33,7 +33,7 @@ git branch -d <branch_name>
 git branch -D <branch_name>
 {% endhighlight %}
 
-![git branch commands]({{ site.baseurl }}/images/post20.png)
+![git branch commands]({{ site.baseurl }}/images/post2_img1.png)
 
 ##### How to sync your branch with the Master branch
 * If you are looking to sync your branch with your master, as in update the online changes that someone else has made to the __master__ branch to your branch, type in the following commands:
