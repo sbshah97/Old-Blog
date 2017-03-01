@@ -1,7 +1,11 @@
+#nav-mobile li, #nav-mobile li a{
+	display:inline-block;
+	box-sizing: initial;
+}
+
 body {
 	background-color: #e8f5e9;
 	font-size: 1.2em;
-	font-family: cursive;
 }
 
 body h1, body h2, body h3, body h4, body h5 {
@@ -16,14 +20,12 @@ body h1, body h2, body h3, body h4, body h5 {
 }
 
 p {
-	font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
  	font-size: 1.0em;
 }
 
 li {
 	font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
-    margin-top: .5em; 
+    font-size: 20px; 
     color: #666;
 }
 
@@ -44,7 +46,7 @@ p img {
 
 .bg-img {
 	position:absolute;
-	top:18%;
+	top:12%;
 	left:50%;
 	transform: translateX(-50%);
 }
@@ -57,7 +59,7 @@ p img {
 
 .header-icons {
 	position: absolute;
-	top: 60%;
+	top: 50%;
 	left: 50%;
 	transform: translateX(-50%);	
 }
@@ -134,4 +136,40 @@ footer.page-footer {
 pre {
 	padding: 10px;
 	background-color: #dddddd;
+}
+
+@media only screen and (max-width : 720px) {
+	.panel, .header-icons {
+		width: 100%;
+	}
+
+	.header-icons {
+		top:82%;
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.icon-image {
+		text-align: center;
+	}
+
+	.nav-wrapper {
+		overflow-y: hidden; 
+		overflow-x: scroll;
+		height: 100%; 
+	}
+
+	#nav-mobile {
+		height: 100%;
+		width:120%;
+		position: absolute;
+	}
+
+	#nav-mobile li, #nav-mobile li a{
+		height:100%;
+	}
+
+	.container {
+		width: 100%;
+	}
 }
