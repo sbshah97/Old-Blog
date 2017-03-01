@@ -9,6 +9,8 @@ tags: ["Git","GitHub"]
 
 ##### What are branches and how to use them?
 
+![git branch commands]({{ site.baseurl }}/images/post2_img1.png)
+
 * Branches are a feature of Git used when multiple collaborators are working on the same project, but want to work on different parts of the project.<br><br>
 * This is where the concept of branches in Git is particularly useful. A branch is like a copy of the original code which runs parlallely with other branches in the code repository! The default branch in a GitHub repository is called __master__. To create a new branch you need to execute the following command:
 
@@ -22,18 +24,17 @@ Switched to a new branch 'salman'
 git checkout master
 git checkout <branch_name>
 {% endhighlight %}
-<br>
+
 * If you are looking to delete a branch first make sure you aren't currently on that branch! Use `git checkout` to move to another branch and then use the following commands to delete the branch.
 {% highlight git %}
 git branch -d <branch_name>
 {% endhighlight %}
-<br>
+
 * In case your branch is not being deleted because you have certain unmerged changes and you really want to delete them without merging your changes, you can use the following instructions!
 {% highlight git %}
 git branch -D <branch_name>
 {% endhighlight %}
-
-![git branch commands]({{ site.baseurl }}/images/post2_img1.png)
+<br>
 
 ##### How to sync your branch with the Master branch
 * If you are looking to sync your branch with your master, as in update the online changes that someone else has made to the __master__ branch to your branch, type in the following commands:
@@ -46,8 +47,11 @@ git pull origin master
 {% highlight git %}
 git pull origin <branch_name>
 {% endhighlight %}
+<br>
 
 ##### How to push branches on GitHub
+
+![Create GitHub Account]({{ site.baseurl }}/images/post2_img2.png)
 
 * Once you have your local changes made and committed, it is essential for you to push them on GitHub so that ohers can review them as well! To do this you can simply push your branch on to GitHub just like you would push the master branch to GitHub!<br>
 * After you're done working on them use the following commands to push your new branch on to GitHub.

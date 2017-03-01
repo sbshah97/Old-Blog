@@ -16,6 +16,7 @@ tags: ["Git","GitHub"]
 * Merge Conflicts usually occur in the case where 'Delete Mode' has occurred! If say, one user has deleted a file and another user has modified the contents of that file, then a Merge Conflict occurs!<br>
 
 ##### How to resolve a Merge Conflict?
+
 * When faced with a Merge Conflict, the first step is to calm down and believe the end of the world isn't here! After that try to understand what just happened.<br>
 * Open up your terminal and enter the command `git status` to see what has happened!
 {% highlight git %}
@@ -31,7 +32,8 @@ $ git status
 #
 no changes added to commit (use "git add" and/or "git commit -a")
 {% endhighlight %}
-* In this example, you can see that since both the users modified the file called team.html in the src folder a merge conflict has occurred. Now you can go to the file and see where the conflict is! if you open the file you will see a line as follows:
+
+* In this example, you can see that since both the users modified the file called team.html in the src folder a merge conflict has occurred. Now you can go to the file and see where the conflict is! If you open the file you will see a line as follows:
 {% highlight git %}
 <<<<<<< HEAD
 <p> This repository is the work of Salman</p>
@@ -44,13 +46,15 @@ This repository is the work of Salman and Hrily</p>
 {% highlight git %}
 <p> This repository is the work of Salman Shah and Hrily</p>
 {% endhighlight %}
+
 * Now after you have done this, you need to mark your file as 'resolved for Git Merge Conflicts' To do that, you need to execute the command `git add <filename>`. In this case the command would be:
 {% highlight git %}
 git add src/team.html
 {% endhighlight %}
 
-* Thus very successfully, we have solved the problem of resolving Merge Conflicts in Git!<br>
-* This is all that you need to start using Git and GitHub in your projects!  
+* With this we have solved the problem of resolving Merge Conflicts in Git!<br>
+
+* This is all that you need to start using Git and GitHub in your projects and this brings us to the end of this small tutorial series on Git and GitHub!  
 
 
 
