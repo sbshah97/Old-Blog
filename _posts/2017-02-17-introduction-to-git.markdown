@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Introduction to Git and GitHub - Part I"
-description: "How to start using Git for projects"
+description: "How to start using Git for your projects"
 tags: ["Git","GitHub"]
 ---
 
@@ -35,6 +35,8 @@ git config --global user.name "Salman Shah"
 
 ##### Create a GitHub Account
 
+![Create GitHub Account]({{ site.baseurl }}/images/post1_img1.png)
+
 * Go to the address: [GitHub](https://github.com/) and then fill in the form which is given.<br><br>
 
 * Choose a unique user-name that you can be identified with, your email address and your unique password.<br><br>
@@ -42,6 +44,10 @@ git config --global user.name "Salman Shah"
 * That is all you need to create your GitHub account.<br><br>
 
 ##### Make your first commit
+
+
+![Create a New Repository]({{ site.baseurl }}/images/post1_img2.png)
+
 * Go to the [GitHub website](https://github.com/) and create a New Repository by clicking on the green 'New Repository' button to the right of the page.<br><br> 
 
 * After that do the following:<br><br>
@@ -50,6 +56,9 @@ git config --global user.name "Salman Shah"
 	3. Make sure it is marked `public`.
 	4. Check the `Initialize this repository with a README`
 	5. Finally click on `Create Repository` button and your new repository will be created!<br><br>
+
+
+![Create GitHub Account]({{ site.baseurl }}/images/post1_img3.png)
 
 * Now all you need to do is click on the Green Dropdown on your repository page called `Clone or download`<br><br>
 
