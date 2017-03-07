@@ -2,15 +2,15 @@
 
 ## Installation
 * Execute this command to install Gems:
-```
+```bash
     bundle install
 ```
 * Or install it yourself as:
-```
+```bash
     gem install blog
 ```
 * To run the Jekyll Server on the LocalHost, use:
-```
+```bash
 bundle exec jekyll s --watch
 ```
 
@@ -18,6 +18,14 @@ bundle exec jekyll s --watch
 * This repository is primarily built by using the following libraries:
 	* MaterializeCSS
 	* jQuery
+
+## Tasks to be done
+- [x] Python -> Introduction - Why Python?       
+- [x] Python -> Installation
+- [x] Python -> Dynamic-Typed or Strongly-Typed
+- [x] Python -> Hello World in Python and compare to Java
+- [ ] Python -> Application in Functional Programming, Object Oriented Programming, Scripting Language and Imperative Language
+
 
 ## Gems Used are:
 * public_suffix 2.0.4
@@ -48,8 +56,3 @@ bundle exec jekyll s --watch
 
 ## License
 * The theme is available as open source under the terms of the [MIT License](http://opensource.org/licenses/MIT).
-
-## Tasks to be done
--[x] Write article on `Introduction to Git and GitHub`.
--[] Add GIF images by using Online GIF Image Generator.
--[x] Complete Big Image by putting #salman-bhai over there!
