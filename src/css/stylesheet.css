@@ -4,14 +4,15 @@
 }
 
 body {
-	background-color: #e8f5e9;
+	background-color: #b2dfdb;
 	font-size: 1.2em;
 }
 
-body h1, body h2, body h3, body h4, body h5 {
+body h1, body h2, body h3, body h4, body h5, body h6 {
 	text-align: center;
-	font-family:Georgia,serif;
- 	color:#4E443C;
+	font-family:roboto;
+	color: #ccffcc;
+	font-size: 1.6em;
  	font-variant: small-caps; 
  	text-transform: none; 
  	font-weight: 100; 
@@ -21,12 +22,13 @@ body h1, body h2, body h3, body h4, body h5 {
 
 p {
  	font-size: 1.0em;
+ 	color: #ccffcc;
 }
 
 li {
 	font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
     font-size: 20px; 
-    color: #666;
+	color: #ccffcc;
 }
 
 ul li p {
@@ -55,6 +57,14 @@ p img {
 	width: 100%;
 	font-family:roboto;
 	color: #ccffcc;
+	font-size: 2.5em;
+}
+
+.bg-img h3 {
+	width: 100%;
+	font-family:roboto;
+	color: #ccffcc;
+	font-size: 2.0em;
 }
 
 .header-icons {
@@ -101,6 +111,10 @@ footer.page-footer {
 	margin-right: 40px;
 	margin-left: 40px;
 	max-width: 800px;
+	background-color: #01579b;
+}
+
+.card-content {
 }
 
 
@@ -135,7 +149,12 @@ footer.page-footer {
 
 pre {
 	padding: 10px;
-	background-color: #dddddd;
+	background-color: #84ffff;
+	font-family: Roboto;
+}
+
+img {
+	max-width: 100%;
 }
 
 @media only screen and (max-width : 720px) {
