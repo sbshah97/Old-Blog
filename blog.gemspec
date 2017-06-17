@@ -3,8 +3,8 @@
 Gem::Specification.new do |spec|
   spec.name          = "blog"
   spec.version       = "0.1.0"
-  spec.authors       = ["Hrishi Hiraskar"]
-  spec.email         = ["hrishihiraskar@gmail.com"]
+  spec.authors       = ["Salman Shah"]
+  spec.email         = ["sbs.191197@gmail.com"]
 
   spec.summary       = %q{TODO: Write a short summary, because Rubygems requires one.}
   spec.homepage      = "TODO: Put your gem's website or public repo URL here."

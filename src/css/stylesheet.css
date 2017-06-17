@@ -4,18 +4,17 @@
 }
 
 body {
-	background-color: #b2dfdb;
+	background-color: #e8e8e8;
 	font-size: 1.2em;
 }
 
 body h1, body h2, body h3, body h4, body h5, body h6 {
 	text-align: center;
-	font-family:roboto;
-	color: #ccffcc;
+	color: #000;
 	font-size: 1.6em;
  	font-variant: small-caps; 
  	text-transform: none; 
- 	font-weight: 100; 
+ 	font-weight: 200; 
  	margin-bottom: 2%;
  
 }
@@ -26,14 +25,12 @@ p {
 }
 
 li {
-	font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px; 
+	font-size: 20px; 
 	color: #ccffcc;
 }
 
 ul li p {
-	font-family: "Helvetica Neue", "Lucida Grande", Helvetica, Arial, Verdana, sans-serif;
-    font-size: 20px;
+	font-size: 20px;
     margin-top: .5em; !important 
     color: #666; !important
 
@@ -83,7 +80,6 @@ footer.page-footer {
 }
 
 .footer-text {
-	font-family: times-roman;
 	font-size: 17px;
 	font-style: normal;
 	font-weight: 400;
@@ -92,7 +88,6 @@ footer.page-footer {
 
 .contact {
 	color: #424242;
-    font-family: "Adobe Caslon Pro", "Hoefler Text", Georgia, Garamond, Times, serif;
 	letter-spacing:0.1em;
 	text-align:center;
 	text-transform: lowercase;
@@ -111,7 +106,7 @@ footer.page-footer {
 	margin-right: 40px;
 	margin-left: 40px;
 	max-width: 800px;
-	background-color: #01579b;
+	background-color: #fff;
 }
 
 .card-content {
