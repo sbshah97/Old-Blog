@@ -1,8 +1,10 @@
 ---
 layout: post
 title: "Introduction to Jekyll"
+date: 2017-05-14 23:32:44
 description: "How to use Jekyll for your Projects"
 tags: ["Jekyll","GitHub", "Personal Website"]
+categories: Jekyll
 ---
 
 ### Introduction
