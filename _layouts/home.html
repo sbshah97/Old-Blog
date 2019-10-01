@@ -1,20 +1,51 @@
 ---
-layout: default
+layout: page
 title: Home
 ---
 
-<ul class="post-list"> 
-{% for post in site.posts %}
-	<li>
-		<a class="white-text" href="{{ site.baseurl }}{{ post.url }}">
-			<div class="card waves-effect waves-light blue-grey darken-1 white-text">
-				<div class="card-content">
-					<span class="post-meta" style="opacity: 0.7;">{{ post.date | date: "%B %-d, %Y"  }}</span>
-					<h5 class="white-text" style="opacity: 0.7;">{{ post.title }}</h5>
-					<p class="post-desc" style="opacity: 0.7;">{{ post.description }}</p>
-				</div>
-			</div>
-		</a>
-	</li>
-{% endfor %}
-</ul>
+        <!-- Home Content -->
+        <div id="content" class="site-content">
+            <div id="blog-wrapper">
+                <div class="blog-holder center-relative">
+
+					<ul class="post-list"> 
+						{% for post in site.posts %}
+							<li>
+								<article id="post-{{forloop.index}}" class="blog-item-holder featured-post">
+									<div class="entry-content relative">
+										<div class="content-1170 center-relative">
+											<div class="cat-links">
+												<ul>
+													<li>
+														<a href="{{ site.baseurl }}{{ post.url }}">Crafting</a>
+													</li>
+												</ul>
+											</div>
+											<div class="entry-date published">{{ post.date | date: "%B %-d, %Y"  }}</div>
+											<h2 class="entry-title">
+												<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+											</h2>
+											<div class="excerpt">
+												{{ post.content | strip_html | truncatewords:40}} ..... <a class="read-more" href="{{ site.baseurl }}{{ post.url }}"></a>
+											</div>
+											<div class="clear"></div>
+										</div>
+									</div>
+								</article>
+							</li>
+						{% endfor %}
+						</ul>
+
+                </div>
+                <div class="clear"></div>
+                <div class="block load-more-holder">LOAD MORE ENTRIES</div>
+            </div>
+
+            <div class="featured-image-holder">
+                <div class="featured-post-image" style="background-image: url(src/demo-images/featured-image.jpg)"></div>
+
+            </div>
+            <div class="clear"></div>
+        </div>
+
+
