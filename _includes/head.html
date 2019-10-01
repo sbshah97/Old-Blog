@@ -1,25 +1,83 @@
 	<head>
 		<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
 
-		<!--Meta tags-->
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1">
-	  	<meta name="author" content="{{ site.author.name }}">
+		<!-- Meta tags-->
+		<!-- Give a small description in 3-4 sentences about yourself -->
+		<meta name="description" content="Salman Shah is a undergraduate student from NITK Surathkal recieveing B. Tech in Information Technology. He works as a Developer at Myntra Designs Pvt. Ltd. He is a contributor to Open Source Technology and is often found with his work.">
+		<!-- A small abstract idea about the website -->
+		<meta name="abstract" content="Use this website to find more information about my Projects">
+		<!-- Important Keywords to be noted in the website  -->
+		<meta name="keywords" content="Salman Shah, Backend Developer, Golang Evangelist, Blogger">
+		<!-- Tell the spider to index only the first page -->
+		<meta name="robots" content="index, nofollow">	  
+		<!-- How often should spiders come back to your page -->
+		<meta name="revisit-after" content="7 days">
+
+		<!-- Copyright regarding the website -->
+		<meta name="copyright" content="Salman Shah">
+		<!-- Tells Google Bot not to duplicate description -->
+		<meta name="googlebot" content="noodp">
+		<!-- Language for the website -->
+		<meta name="language" content="English">  
+
+		<!-- Web Author for the image -->
+		<meta name="web_author" content="Salman Shah">
+		<meta name="author" content="Salman Shah">
+		<!-- Email ID -->
+		<meta name="contact" content="sbs.191197@gmail.com" />
+		<!-- Email ID to reply to -->
+		<meta name="reply-to" content="sbs.191197@gmail.com">
+
+		<!-- Refers to distribution of the page -->
+		<meta name="distribution" content="global">
+		<!-- Generator or formatter tag -->
+		<meta name="generator" content="Jekyll">
+		<!-- Disallow spammers for the webpage -->
+		<meta name="no-email-collection" content="http://www.metatags.info/nospamharvesting">
+		<!-- Rating for the page -->
+		<meta name="rating" content="general">
+		<!-- Content Type for the page -->
 		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<!-- Fixing viewport on mobile views -->
+		<meta name="viewport" content="width=device-width; initial-scale=1; maximum-scale=1.0">
 
-		<!--Favicon-->
-		<link rel="shortcut icon" href="images/favicon.ico">
+		<!-- Favicon for the website -->
+		<link rel="shortcut icon" href="src/favicon.ico">
 
-		<!--CSS Files-->
-		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/css/materialize.min.css">
-		<link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
-		<link rel="stylesheet" href="src/css/stylesheet.css">
+		<link rel="shortcut icon" href="src/images/favicon.png" />
+		<link href='http://fonts.googleapis.com/css?family=Montserrat:400,700%7CLibre+Baskerville:400,400italic,700' rel='stylesheet' type='text/css'>
+		<link rel="stylesheet" type="text/css"  href='src/css/clear.css' />
+		<link rel="stylesheet" type="text/css"  href='src/css/common.css' />
+		<link rel="stylesheet" type="text/css"  href='src/css/font-awesome.min.css' />
+		<link rel="stylesheet" type="text/css"  href='src/css/carouFredSel.css' />
+		<link rel="stylesheet" type="text/css"  href='src/css/sm-clean.css' />
+		<link rel="stylesheet" type="text/css"  href='src/css/style.css' />
 
-		<!--JavaScript files-->
-		<script type="text/javascript" src="src/js/home.js"></script>
-		<script src="https://code.jquery.com/jquery-3.1.1.min.js" integrity="sha256-hVVnYaiADRTO2PzUGmuLJr8BLUSjGIZsDYGmIJLv2b8=" crossorigin="anonymous">
+		<!--[if lt IE 9]>
+				<script src="js/html5.js"></script>
+		<![endif]-->
+
+		<!-- Google Analytics Script -->
+		<script>
+			(function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+			(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+			m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+			})(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+			ga('create', 'UA-106590424-1', 'auto');
+			ga('send', 'pageview');
 		</script>
-		<script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.97.8/js/materialize.min.js">
+
+		<script type="application/ld+json">
+		{
+			"@context": "https://salman-bhai.github.io",
+			"@type": "Person",
+			"url": "https://salman-bhai.github.io",
+			"name": "Salman Shah",
+			"email": "sbs.191197@gmail.com"
+		}
 		</script>
+
 
 	</head>
+		
