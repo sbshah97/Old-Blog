@@ -1,76 +1,13 @@
-<!DOCTYPE html>
+<!DOCTYPE HTML>
 <html>
 	{% include head.html %}
+<body>
+	{% include navigation.html %}
 
-    <body class="single-post">
+    {{ content }}
+	
+    {% include footer.html %}
 
-        <!-- Preloader Gif -->
-        <table class="doc-loader">
-            <tbody>
-                <tr>
-                    <td>
-                        <img src="src/images/ajax-document-loader.gif" alt="Loading...">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
-
-
-		{% include sidebar.html %}			
-
-        <!-- Single Content -->
-        <div id="content" class="site-content center-relative">
-            <div class="single-post-wrapper content-1070 center-relative">
-
-                <article class="center-relative">
-                    <h1 class="entry-title">
-                        I like to reinvent myself
-                    </h1>
-                    <div class="post-info content-660 center-relative">
-                        <div class="cat-links">
-                            <ul>
-                                <li><a href="#">Science</a></li>
-                            </ul>
-                        </div>
-                        <div class="entry-date published">February 12, 2016</div>
-                        <div class="clear"></div>
-                    </div>
-
-                    <div class="entry-content">
-                        <div class="content-wrap content-660 center-relative">
-                            <p>Now when I had mastered the language of this water and had come to know every trifling feature that bordered the great river as familiarly as I knew the letters of the alphabet, I had made a valuable acquisition.</p>
-                            <br>
-                            <div class="clear"></div>
-                        </div>
-                        <div class="post-full-width">
-                            <script>
-                                var slider1_speed = "500";
-                                var slider1_auto = "true";
-                                var slider1_pagination = "true";
-                                var slider1_hover = "true";
-                            </script>
-                            <div class="image-slider-wrapper">
-                                <div class="caroufredsel_wrapper">
-                                    <ul id="slider1" class="image-slider slides center-text">
-                                        <li><img src="src/demo-images/01_blogpost_galery.jpg" alt=""></li>
-                                        <li><img src="src/demo-images/02_blogpost_galery.jpg" alt=""></li>
-                                        <li><img src="src/demo-images/03_blogpost_galery.jpg" alt=""></li>
-                                    </ul>
-                                </div>
-                                <div class="slider1_pagination carousel_pagination left"></div>
-                                <div class="clear"></div>
-                            </div>
-                            <div class="clear"></div>
-                        </div>
-                        <div class="content-wrap content-660 center-relative ">
-							{{content}}                        
-						</div>
-                    </div>
-                    <div class="clear"></div>
-                </article>
-            </div>
-        </div>
-
-		{% include footer.html %}
-	</body>
+	{% include js-imports.html %}
+</body>
 </html>
