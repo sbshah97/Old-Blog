@@ -1,13 +1,24 @@
 <!DOCTYPE HTML>
 <html>
+
+<head>
+	<title>{% if page.title %}{{ page.title }} – {% endif %}{{ site.title }}</title>
+
 	{% include head.html %}
+</head>
+
 <body>
 	{% include navigation.html %}
 
-    {{ content }}
-	
-    {% include footer.html %}
+	<div id="colorlib-page">
+		{% include header.html %}
+
+		{{ content }}
+	</div>
+
+	{% include footer.html %}
 
 	{% include js-imports.html %}
 </body>
+
 </html>

@@ -1,25 +1,26 @@
 <!DOCTYPE html>
 <html>
-	{% include head.html %}
+{% include head.html %}
 
-    <body class="home blog">
+<body class="home blog">
 
-        <!-- Preloader Gif -->
-        <table class="doc-loader">
-            <tbody>
-                <tr>
-                    <td>
-                        <img src="images/ajax-document-loader.gif" alt="Loading...">
-                    </td>
-                </tr>
-            </tbody>
-        </table>
+    <!-- Preloader Gif -->
+    <table class="doc-loader">
+        <tbody>
+            <tr>
+                <td>
+                    <img src="images/ajax-document-loader.gif" alt="Loading...">
+                </td>
+            </tr>
+        </tbody>
+    </table>
 
 
-		{% include sidebar.html %}			
+    {% include sidebar.html %}
 
-        {{content}}
+    {{content}}
 
-		{% include footer.html %}
-	</body>
+    {% include footer.html %}
+</body>
+
 </html>
