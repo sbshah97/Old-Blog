@@ -3,49 +3,48 @@ layout: page
 title: Home
 ---
 
-        <!-- Home Content -->
-        <div id="content" class="site-content">
-            <div id="blog-wrapper">
-                <div class="blog-holder center-relative">
+<!-- Home Content -->
+<div id="content" class="site-content">
+	<div id="blog-wrapper">
+		<div class="blog-holder center-relative">
 
-					<ul class="post-list"> 
-						{% for post in site.posts %}
-							<li>
-								<article id="post-{{forloop.index}}" class="blog-item-holder featured-post">
-									<div class="entry-content relative">
-										<div class="content-1170 center-relative">
-											<div class="cat-links">
-												<ul>
-													<li>
-														<a href="{{ site.baseurl }}{{ post.url }}">Crafting</a>
-													</li>
-												</ul>
-											</div>
-											<div class="entry-date published">{{ post.date | date: "%B %-d, %Y"  }}</div>
-											<h2 class="entry-title">
-												<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
-											</h2>
-											<div class="excerpt">
-												{{ post.content | strip_html | truncatewords:40}} ..... <a class="read-more" href="{{ site.baseurl }}{{ post.url }}"></a>
-											</div>
-											<div class="clear"></div>
-										</div>
-									</div>
-								</article>
-							</li>
-						{% endfor %}
-						</ul>
+			<ul class="post-list">
+				{% for post in site.posts %}
+				<li>
+					<article id="post-{{forloop.index}}" class="blog-item-holder featured-post">
+						<div class="entry-content relative">
+							<div class="content-1170 center-relative">
+								<div class="cat-links">
+									<ul>
+										<li>
+											<a href="{{ site.baseurl }}{{ post.url }}">Crafting</a>
+										</li>
+									</ul>
+								</div>
+								<div class="entry-date published">{{ post.date | date: "%B %-d, %Y"  }}</div>
+								<h2 class="entry-title">
+									<a href="{{ site.baseurl }}{{ post.url }}">{{ post.title }}</a>
+								</h2>
+								<div class="excerpt">
+									{{ post.content | strip_html | truncatewords:40}} ..... <a class="read-more"
+										href="{{ site.baseurl }}{{ post.url }}"></a>
+								</div>
+								<div class="clear"></div>
+							</div>
+						</div>
+					</article>
+				</li>
+				{% endfor %}
+			</ul>
 
-                </div>
-                <div class="clear"></div>
-                <div class="block load-more-holder">LOAD MORE ENTRIES</div>
-            </div>
+		</div>
+		<div class="clear"></div>
+		<div class="block load-more-holder">LOAD MORE ENTRIES</div>
+	</div>
 
-            <div class="featured-image-holder">
-                <div class="featured-post-image" style="background-image: url(src/demo-images/featured-image.jpg)"></div>
+	<div class="featured-image-holder">
+		<div class="featured-post-image" style="background-image: url(src/demo-images/featured-image.jpg)"></div>
 
-            </div>
-            <div class="clear"></div>
-        </div>
-
-
+	</div>
+	<div class="clear"></div>
+</div>

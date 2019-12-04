@@ -3,9 +3,9 @@
 # To change the blog settings according to your preference kindly change only in this file 
 # and the rest of the changes will be updated in the blog
 
-title: Salman Shah - Blog
+title: Salman Shah - Personal Website
 email: sbs.191197@gmail.com
-description: This is my technical blog where I'll be sharing insights to some of the projects that I have undertaken.
+description: This is the personal website of Salman Shah with an account of all his work and achievements.
 baseurl: "/" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
 
@@ -14,13 +14,13 @@ author:
   name: Salman Shah
   github_username: salman-bhai
   description: Blogger, Coder, Developer
-  contact: Salman Shah, Room 53 - Block 3, NITK Hostels, Srinivas Nagar, Surathkal, Mangalore, Karnataka - 575025.
 
 social-media:
   github: https://github.com/salman-bhai
   linkedin: https://www.linkedin.com/in/sbshah97
   facebook: https://www.facebook.com/salman.shah.92775
   instagram: https://www.instagram.com/salmanbhai_97/
+  twitter: https://twitter.com/sbshah97
 
 # Build settings
 markdown: kramdown
