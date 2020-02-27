@@ -6,8 +6,8 @@
 title: Salman Shah - Personal Website
 email: sbs.191197@gmail.com
 description: This is the personal website of Salman Shah with an account of all his work and achievements.
-baseurl: "/" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://salman-bhai.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Information
 author:
@@ -18,15 +18,25 @@ author:
 social-media:
   github: https://github.com/salman-bhai
   linkedin: https://www.linkedin.com/in/sbshah97
-  facebook: https://www.facebook.com/salman.shah.92775
-  instagram: https://www.instagram.com/salmanbhai_97/
+  facebook: https://www.facebook.com/sbshah97
+  instagram: https://www.instagram.com/sbshah1997/
   twitter: https://twitter.com/sbshah97
 
 # Build settings
 markdown: kramdown
+highlighter: rouge
+permalink: /blog/:title/
 theme: minima
+# exclude my node related stuff
+exclude: ['package.json', 'src', 'node_modules']
+
 gems:
   - jekyll-feed
 exclude:
   - Gemfile
   - Gemfile.lock
+# Make 6 articles per page
+paginate: 6
+paginate_path: "/page:num/"
+
+future: true

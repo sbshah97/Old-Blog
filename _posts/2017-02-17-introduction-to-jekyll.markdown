@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Introduction to Jekyll"
+title: "Introduction to using Jekyll for your Projects"
 description: "How to use Jekyll for your Projects"
 tags: ["Jekyll","GitHub", "Personal Website"]
 ---
@@ -12,12 +12,6 @@ Just created my blog using [Jekyll](http://jekyllrb.com) - the fast and minimila
 One of my friend suggested me about Jekyll when I told him about my plan to create a blog. Then I searched the web about it and started creating my blog. And in just few hours, my blog was ready!
 
 <br>
-
-For those who are wondering how I created the blog, following are the links for reference :
-* [Jekyll Docs](https://jekyllrb.com/docs/home/)
-* [Tutorial by Hongikiat](http://www.hongkiat.com/blog/blog-with-jekyll/)
-* [Ready to Make Jekyll Blog](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
-* [Tags listing in Jekyll](https://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/)
 
 A typical post using Jekyll would look something like this. 
 ```markdown
@@ -32,3 +26,10 @@ You’ll find this post in your `_posts` directory. Go ahead and edit it and re-
 To add new posts, simply add a file in the `_posts` directory that follows the convention `YYYY-MM-DD-name-of-post.ext` and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.
 
 ```
+
+For those who are wondering how I created the blog, following are the links for reference :
+* [Jekyll Docs](https://jekyllrb.com/docs/home/)
+* [Tutorial by Hongikiat](http://www.hongkiat.com/blog/blog-with-jekyll/)
+* [Ready to Make Jekyll Blog](https://www.smashingmagazine.com/2014/08/build-blog-jekyll-github-pages/)
+* [Tags listing in Jekyll](https://www.jokecamp.com/blog/listing-jekyll-posts-by-tag/)
+
