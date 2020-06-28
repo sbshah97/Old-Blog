@@ -22,3 +22,6 @@ gem "minima", "~> 2.5"
 group :jekyll_plugins do
    gem "jekyll-feed", "~> 0.14"
 end
+
+gem "jekyll-paginate"
+gem "jekyll-paginate-v2"
