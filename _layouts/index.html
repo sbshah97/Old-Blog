@@ -1,6 +1,8 @@
 ---
 layout: default
 title: Home
+pagination: 
+  enabled: true
 ---
 
 <div id="colorlib-hero" class="js-fullheight">
@@ -21,7 +23,7 @@ title: Home
 						<div class="display-tc js-fullheight">
 							<div class="text-inner">
 								<div class="desc">
-									<h2>I’m Salman Shah, a software developer based in Bangalore.</h2>
+									<h2>I’m Salman Shah, a software developer on the week.</h2>
 									<p>
 										<a href="/work" class="btn-view">Hire me now
 											<i class="icon-arrow-right3"></i>
@@ -44,7 +46,7 @@ title: Home
 						<div class="display-tc js-fullheight">
 							<div class="text-inner">
 								<div class="desc">
-									<h2>I'm an avid traveller &amp; blogger in Bangalore.</h2>
+									<h2>Speaker, Traveller &amp; Cook by the Weekend.</h2>
 									<p>
 										<a href="/work" class="btn-view">Hire me now
 											<i class="icon-arrow-right3"></i>
@@ -59,6 +61,8 @@ title: Home
 		</div>
 	</div>
 </div>
+
+{% if paginator.total_pages > 1 %}
 <div class="colorlib-services">
 	<div class="container">
 		<div class="row">
@@ -67,56 +71,18 @@ title: Home
 				<h2>Code, Product Development and a bit of magic</h2>
 			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-4 text-center animate-box">
-				<div class="services">
-					<span class="icon">
-						<i class="icon-magnifying-glass"></i>
-					</span>
-					<div class="desc">
-						<h3><a href="#">Explore</a></h3>
-						<h4>Management</h4>
-						<h4>Tech Talks</h4>
-						<h4>System Design</h4>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 text-center animate-box">
-				<div class="services">
-					<span class="icon">
-						<i class="icon-layers"></i>
-					</span>
-					<div class="desc">
-						<h3><a href="#">Create</a></h3>
-						<h4>Code</h4>
-						<h4>Product Building</h4>
-						<h4>Branding</h4>
-					</div>
-				</div>
-			</div>
-			<div class="col-md-4 text-center animate-box">
-				<div class="services">
-					<span class="icon">
-						<i class="icon-lightbulb"></i>
-					</span>
-					<div class="desc">
-						<h3><a href="#">Learn</a></h3>
-						<h4>Building Businesses</h4>
-						<h4>Leadership</h4>
-						<h4>Keynote Speaking</h4>
-					</div>
-				</div>
-			</div>
-		</div>
+		{% include paginator.html %}
+	</div>
 	</div>
 </div>
+{% endif %}
 
 <div class="colorlib-case colorlib-bg-white">
 	<div class="container">
 		<div class="row">
 			<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading">
 				<span>Work</span>
-				<h2>Happy spending my time to this projects</h2>
+				<h2>Happy spending my time on these projects</h2>
 			</div>
 		</div>
 		<div class="work-wrap">
@@ -124,43 +90,44 @@ title: Home
 				<div class="owl-carousel1">
 					<div class="item">
 						<div class="col-md-6">
-							<div class="case-img" style="background-image: url(images/work-1.jpg);"></div>
+							<div class="case-img">
+								<iframe width="560" height="315" src="https://www.youtube.com/embed/ErFhAtRBLfg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+							</div>
 						</div>
 						<div class="col-md-6">
 							<div class="case-desc">
-								<p class="tag"><span>UI/UX, Art Direction</span></p>
-								<h3><a href="#">Playtime Website Manager</a></h3>
-								<p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-									unorthographic life One day however a small</p>
-								<p><a href="#" class="btn btn-primary">See details</a></p>
+								<p class="tag"><span>Software Development, IRIS NITK</span></p>
+								<h3><a href="#">Student Tech Lead</a></h3>
+								<p>Successfully scaled the system with almost a 50% increase in user traffic across the campus to 5000+users. Used several algorithms across various problems to ensure scalable code on production with 99% uptime.</p>
+								<p>
+									<a href="https://iris.nitk.ac.in/about_us" class="btn btn-primary" target="_blank" rel="noopener noreferrer">See details</a>
+								</p>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="col-md-6">
-							<div class="case-img" style="background-image: url(images/work-2.jpg);"></div>
+							<div class="case-img" style="background-image: url(/images/openlibrary-logo.svg);"></div>
 						</div>
 						<div class="col-md-6">
 							<div class="case-desc">
-								<p class="tag"><span>UI/UX, Art Direction</span></p>
-								<h3><a href="#">Race Mobile Application</a></h3>
-								<p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-									unorthographic life One day however a small</p>
-								<p><a href="#" class="btn btn-primary">See details</a></p>
+								<p class="tag"><span>Open Source, Open Library</span></p>
+								<h3><a href="#">Google Summer of Code Student</a></h3>
+								<p>Open Source Contributions to Open Library, world's open source Library Project</p>
+								<p><a href="https://blog.openlibrary.org/2018/08/12/google-summer-of-code-2018/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">See details</a></p>
 							</div>
 						</div>
 					</div>
 					<div class="item">
 						<div class="col-md-6">
-							<div class="case-img" style="background-image: url(images/work-3.jpg);"></div>
+							<div class="case-img" style="background-image: url(images/IEEE_NITK.jpeg);"></div>
 						</div>
 						<div class="col-md-6">
 							<div class="case-desc">
-								<p class="tag"><span>UI/UX, Art Direction</span></p>
-								<h3><a href="#">Playtime Website Manager</a></h3>
-								<p>Even the all-powerful Pointing has no control about the blind texts it is an almost
-									unorthographic life One day however a small</p>
-								<p><a href="#" class="btn btn-primary">See details</a></p>
+								<p class="tag"><span>Management, IEEE NITK</span></p>
+								<h3><a href="#">Convenor</a></h3>
+								<p>Managed a team of 130 Executive Members and 500+ Student Members to conduct a 15+ of activities, notably driving Women in Tech initiatives.</p>
+								<p><a href="https://ieee.nitk.ac.in/" class="btn btn-primary" target="_blank" rel="noopener noreferrer">See details</a></p>
 							</div>
 						</div>
 					</div>
@@ -175,12 +142,12 @@ title: Home
 	<div class="container">
 		<div class="row row-padded-bottom">
 			<div class="col-md-8 col-md-offset-2 text-center animate-box">
-				<p>Salman Shah is a 22 year old developer based out of Bangalore striving to create impact with my work and looking to network with people to share and work with my ideas. He have been working with Ruby on Rails for over 3.5 years and working across several organisations through out his college life has brought immense learning and satisfaction on working to impact lives around him.</p>
+				<p>Salman Shah is a 22 year old developer based out of Bangalore striving to create impact with my work and looking to network with people to share and work with my ideas. He have been working with Ruby on Rails for over 4 years and with Golang for over a year. He has worked across several organisations through out his college life has brought immense learning and satisfaction on working to impact lives around him.</p>
 				<p>He has been interested in Public Speaking since his school days. He's been a speaker at GopherCon India 2020, NIT Conclave 2019.</p>
 				<p>
 					<a href="https://github.com/salman-bhai/Resume/blob/master/SS_Resume.pdf" class="resume">
 						<i class="icon-documents"></i> 
-						Read my resume here
+						Read his resume here
 					</a>
 				</p>
 			</div>

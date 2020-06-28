@@ -2,12 +2,39 @@
 layout: default
 ---
 
-<h4>{{page.title}}</h4>
-<p class="post-meta valign-wrapper white-text"><i class="material-icons white-text">today</i><span
-		class="valign">{{ page.date | date: "%B %-d, %Y"  }}</span></p><br>
-{{ content }}
-<br>
-<h5 class="valign-wrapper">Tags</h5>
-{% for atag in page.tags %}
-<a class="chip" href="/tags#{{ atag | downcase }}">{{ atag }}</a></h5>
-{% endfor %}
+<div id="colorlib-blog">
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12 col-md-offset-0 text-center animate-box intro-heading intro-heading-2">
+				<span>{{ page.date | date: "%B %-d, %Y"  }}</span>
+				<h2>{{page.title}}</h2>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col-md-10 col-md-offset-1">
+				<div class="row row-padded-bottom">
+					<div class="col-md-12 animate-box">
+						<article>
+							{% if page.banner_image %}
+								<div class="blog-img" style="background-image: url(/images/blog-2.jpg);"></div>
+							{% endif %}
+							<div class="row">
+								<div class="col-md-10 col-md-offset-1">
+									<div class="desc">
+										{{ content }}
+										<p class="tag">
+											{% for atag in page.tags %}
+												<span><a href="/tags#{{ atag | downcase }}">{{ atag }}</a></span>
+											{% endfor %}
+										</p>
+									</div>
+								</div>
+							</div>
+						</article>
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+</div>

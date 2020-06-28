@@ -1,0 +1,49 @@
+{% if paginator.total_pages > 1 %}
+    <div class="row row-pb-md pagination">
+        <ul class="pagelist">
+        {% if paginator.previous_page %}
+        <li>
+            <a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}">&laquo; Prev</a> 
+        {% else %}
+            <span>&laquo; Prev</span>
+        </li>
+        {% endif %} 
+        </ul>
+
+        {% for post in paginator.posts %}
+        <div class="col-md-4">
+            <div class="article animate-box">
+                {% if post.external %}
+                    <a href="{{ post.external.link }}" class="blog-img" target="_blank">
+                {% else %}
+                    <a href="{{ post.url | prepend: site.baseurl }}" class="blog-img">
+                {% endif %}
+                
+                    {% if post.banner %}
+                        <img class="img-responsive" src="{{ post.banner }}" alt="Technical Blog by Salman">
+                    {% else %}
+                        <img class="img-responsive" src="/src/images/blog-1.jpg" alt="Technical Blog by Salman">
+                    {% endif %}	
+                        
+                    <div class="overlay"></div>
+                
+                    </a>
+
+                    <div class="desc">
+                        <span class="meta">{{ post.date | date: "%d, %B %Y" }}</span>
+                        <h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+                        <p>{{ post.description | strip_html | truncatewords:20 }}</p>
+                    </div>
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+
+    {% if paginator.next_page %}
+    <li>
+        <a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}">Next &raquo;</a> {% else %}
+        <span>Next &raquo;</span>
+    </li>
+    {% endif %}
+
+{% endif %}
