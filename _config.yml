@@ -3,17 +3,25 @@
 # To change the blog settings according to your preference kindly change only in this file 
 # and the rest of the changes will be updated in the blog
 
-title: Salman Shah - Personal Website
+title: Salman Shah
 email: sbs.191197@gmail.com
-description: Salman Shah is a undergraduate student from NITK Surathkal receiving B. Tech in Information Technology. He works as a Backend Developer at Myntra Designs Pvt. Ltd. He is a contributor to Free and Open Source Software (FOSS).
+abstract: Salman Shah is a undergraduate student from NITK Surathkal receiving B. Tech in Information Technology. He works as a Backend Developer at Myntra Designs Pvt. Ltd. He is a contributor to Free and Open Source Software (FOSS).
+keywords: Salman Shah, Backend Developer, Golang Evangelist, Traveller, Food Enthusiast, Open Source Enthusiast, Myntra, NITK Surathkal, salman-bhai
+description: Family, Code, Speaker, Friends, Food and Travel in that order, that's him! Loves the hustle, deep desire to help people and impact their lives positively. Reach out for a conversation!
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://salmanshah.com" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Author Information
 author:
   name: Salman Shah
-  github_username: salman-bhai
-  description: Blogger, Coder, Developer
+
+navigation:
+  - title: Home
+    link: /
+  - title: Blog
+    link: /blog/
+  - title: About
+    link: /about/
 
 social-media:
   github: https://github.com/salman-bhai
