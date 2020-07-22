@@ -6,11 +6,15 @@
                 <div class="row">
                     <div class="col-md-12 text-center">
                         <ul>
-                            <li class="active"><a href="/"><span>Home</span></a></li>
-                            <!-- <li><a href="/projects"><span>Projects</span></a></li> -->
-                            <!-- <li><a href="/speaking"><span>Speaking</span></a></li> -->
-                            <li><a href="/blog"><span>Blog</span></a></li>
-                            <li><a href="/about"><span>About</span></a></li>
+                            {% for nav_page in site.navigation %}
+                                {% if nav_page.url == page.url %}
+                                    <li class="active">
+                                {% else %}
+                                    <li>
+                                {% endif %}
+                                    <a href="{{nav_page.link}}"><span>{{nav_page.title}}</span></a>
+                                </li>
+                            {% endfor %}
                         </ul>
                     </div>
                 </div>
