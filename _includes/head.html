@@ -7,8 +7,14 @@
 	content="{{site.description}}">
 <!-- A small abstract idea about the website -->
 <meta name="abstract" content="{{site.abstract}}">
+
 <!-- Important Keywords to be noted in the website  -->
+{% if page.tags %}
+<meta name="keywords" content="{{site.keywords}}, {{page.tags}}">
+{% else %}
 <meta name="keywords" content="{{site.keywords}}">
+{% endif %}
+
 <!-- Tell the spider to index only the first page -->
 <meta name="robots" content="index, nofollow">
 <!-- How often should spiders come back to your page -->

@@ -1,12 +1,10 @@
 ---
 layout: post
-title: "Introduction to Intrumentation Tests in Android using Espresso"
-description: "An Introduction to what Intrumentation Tests is and how to use it in Android with the Espresso framework"
-tags: 
-- Android
-- Software Testing
-languages:
-- Java
+title: "Intrumentation Tests in Android using Espresso"
+description: "How to use in Android with the Espresso framework"
+tags: ["Android", "Software Testing"]
+category:
+- Programming
 ---
 
 In the [previous tutorial](/blog/unit-testing-android/), the article how to write a simple Unit Test for Android. This article however deals with Instrumentation Tests and how to get started with them for Android. Like the previous article, for this article we will re-use the same simple [Calculator App](https://github.com/salman-bhai/Calculator-Demo-App/tree/ui-testing) that we built. 

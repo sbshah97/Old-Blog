@@ -1,12 +1,12 @@
 ---
 layout: post
 title: "Introduction to Unit Testing in Android"
-description: "An Introduction to what Unit Testing is and how to use it in Android with Roboelectric Testing Framework"
+description: "How to use in Android with Roboelectric Testing Framework"
 tags: 
 - Android
 - Software Testing
-languages:
-- Java
+category:
+- Programming
 ---
 
 Hi! This is a small tutorial and article on Unit Testing and why to use it in everyday development. I've made a small tutorial on how you can get started with Roboelectric. You can check out the sample code in the Github repository [here](https://github.com/salman-bhai/Calculator-Demo-App). Feel free to leave your comments at the bottom of the page! 

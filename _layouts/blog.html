@@ -29,7 +29,11 @@ title: Blog
 							</a>
 						<div class="desc">
 							<span class="meta">{{ post.date | date: "%d, %B %Y" }}</span>
-							<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+							{% if post.external %}
+								<h2><a href="{{ post.external.link }}" target="_blank">{{ post.title }}</a></h2>
+							{% else %}
+								<h2><a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a></h2>
+							{% endif %}
 							<p>{{ post.description | strip_html | truncatewords:20 }}</p>
 						</div>
 					</div>
