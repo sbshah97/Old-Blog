@@ -5,8 +5,8 @@ description: "How to get started with Python 3 for Programming"
 tags: 
 - Python
 - OOP
-languages:
-- Python
+category:
+- Programming
 ---
 
 Welcome to Part - I of the Tutorial Series Introduction to Python. This following series of tutorials  primarily deal about getting programmers with no programming experience to start using Python in their systems and showcase the power of Python across multiple domains and fields in Computer Science.

@@ -6,8 +6,8 @@ tags:
 - Git
 - GitHub
 - Version Control
-languages:
-- Git
+category:
+- Programming
 ---
 
 This post deals with the dreaded word of <b>Resolving Merge Conflicts</b> and how it isn't as bad as we think it is! This often happens when multiple people work on the same branch or when multiple branches are in play and they don't get pushed sequentially! The only thing you should remember in Git is you cannot break things. You can always go to your previous state and re-start your work again! It is saved as long as you push it properly! 

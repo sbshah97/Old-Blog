@@ -5,8 +5,8 @@ description: "How to set up Laravel on Ubuntu 16.04 and above"
 tags: 
 - Laravel
 - Ubuntu
-languages:
-- PHP
+category:
+- Programming
 ---
 
 ## What is Laravel?

@@ -3,6 +3,8 @@ layout: post
 title: "Introduction to using Jekyll for your Projects"
 description: "How to use Jekyll for your Projects"
 tags: ["Jekyll","GitHub", "Personal Website"]
+category:
+- Programming
 ---
 
 ### Introduction

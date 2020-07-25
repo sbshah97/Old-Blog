@@ -6,8 +6,8 @@ tags:
 - Git
 - GitHub
 - Version Control
-languages:
-- Git
+category:
+- Programming
 ---
 
 A lot of times it is difficult to coordinate changes in a project while using Version Control especially when there are more than one contributors in a particular repository! At such times it is important to use a particular feature of Git called <b>branch</b>. 

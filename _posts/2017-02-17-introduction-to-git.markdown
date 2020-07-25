@@ -6,8 +6,8 @@ tags:
 - Git
 - GitHub
 - Version Control
-languages:
-- Git
+category:
+- Programming
 ---
 
 #### Definition
